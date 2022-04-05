@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6551614653910040741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6551614653910040742}
+  - component: {fileID: 6551614653910040743}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6551614653910040742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551614653910040741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2440.1392, y: -250.11417, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6551614653910040743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551614653910040741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30fbea01fe23354aad028115953c549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Alarm
+    clip: {fileID: 8300000, guid: 1394135a16e5aaa438bf8557f88576f4, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 08b284e7d4f3bba48829b0cf211d89b4, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Land
+    clip: {fileID: 8300000, guid: 94187256b9150a94abb369f497d259df, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: AlarmDeath
+    clip: {fileID: 8300000, guid: 087df66058cace24781294fbb9f8d81a, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Walk
+    clip: {fileID: 8300000, guid: 0c98fc1dcc6bbc84cb4ab3ff755d0ed9, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: Sprint
+    clip: {fileID: 8300000, guid: e8c0931083012804db445787a482492e, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: Laser
+    clip: {fileID: 8300000, guid: eb79f9160b22c134c90537c3ef9f7aa7, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 21442897687b0ac4ebfa72f6c863ee54, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dissolve
+    clip: {fileID: 8300000, guid: c8054ebc9ce41b542bdd22ece939a623, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Undissolve
+    clip: {fileID: 8300000, guid: 993cd4700a217d94cbf2ace1e3cd6afd, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: MainLoop
+    clip: {fileID: 8300000, guid: 200249a8cad75284f8fb3b64542dce45, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Ambience
+    clip: {fileID: 8300000, guid: 457e83ee922876b46af3c2449fd0ca3e, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 38ec8b5b8e9c9744f9b319007c838e23, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Thrust
+    clip: {fileID: 8300000, guid: b28d86decee86bd488c65a7848a646bb, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Charge
+    clip: {fileID: 8300000, guid: 6cd61207d9c5d1749a4cee4321458aa8, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Fail
+    clip: {fileID: 8300000, guid: cfae7afffb834a342a942f779e58b277, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: b85d227085668bb4f94cffdbe164a593, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: TextScroll
+    clip: {fileID: 8300000, guid: e323eb593670a1f4baac480ba3dd7e7e, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Checkpoint
+    clip: {fileID: 8300000, guid: 547954f43c2667144b599ef627901b2f, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Fight
+    clip: {fileID: 8300000, guid: f8e6291dfbe082047b61b84a142b888f, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: EVA
+    clip: {fileID: 8300000, guid: a82a9a7d016d0164f8507ae99d831bfd, type: 3}
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  mixer: {fileID: 24100000, guid: c6c7cd541e9eac943897e74cc36ce4f6, type: 2}

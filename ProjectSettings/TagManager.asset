@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - HubTurnGreen
+  - GlobalLight
+  - HubDoor
+  - RangedEnemy
+  - EVADoor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Foreground
+  - Background
+  - Player
+  - Interface
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1697866901
+    locked: 0
+  - name: Props
+    uniqueID: 2008996819
+    locked: 0
+  - name: Foreground
+    uniqueID: 1699329731
+    locked: 0
+  - name: Player
+    uniqueID: 3218988111
+    locked: 0
+  - name: Interface
+    uniqueID: 343721569
+    locked: 0
